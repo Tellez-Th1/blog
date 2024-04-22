@@ -1,0 +1,59 @@
+lockfileVersion: '9.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+importers:
+
+  .:
+    devDependencies:
+      typerscript:
+        specifier: ^0.2.3
+        version: 0.2.3(typestyle@1.5.1)
+
+packages:
+
+  '@types/react@16.3.11':
+    resolution: {integrity: sha512-F0ZqVldV6l7FObRPfkgXg4GwWJa4tGrh1glydmx+OMOdU4K5lUnh2rlj/4uO6RnuN2OBVCzo2XiyIifEZPkCXw==}
+
+  csstype@2.6.21:
+    resolution: {integrity: sha512-Z1PhmomIfypOpoMjRQB70jfvy/wxT50qW08YXO5lMIJkrdq4yOTR+AW7FqutScmB9NkLwxo+jU+kZLbofZZq/w==}
+
+  free-style@2.5.1:
+    resolution: {integrity: sha512-X7dtUSTrlS1KRQBtiQ618NWIRDdRgD91IeajKCSh0fgTqArSixv+n3ea6F/OSvrvg14tPLR+yCq2s+O602+pRw==}
+
+  typerscript@0.2.3:
+    resolution: {integrity: sha512-CUucff2vFKtVfBvukwI3D9Un1RSLHsnCKBlqJvqpSfib5PW9mFMUpaHce/seU5UqWv5yqVlkNdCH8vSw9ZY5fw==}
+    peerDependencies:
+      typestyle: 1.5.1
+
+  typescript@2.9.2:
+    resolution: {integrity: sha512-Gr4p6nFNaoufRIY4NMdpQRNmgxVIGMs4Fcu/ujdYk3nAZqk7supzBE9idmvfZIlH/Cuj//dvi+019qEue9lV0w==}
+    engines: {node: '>=4.2.0'}
+    hasBin: true
+
+  typestyle@1.5.1:
+    resolution: {integrity: sha512-6V5qc2TqYUcsUAo3siKbyWOK4bJTknUDxiKk0qoel3USUDOeEw9YBvwHlmlZS8CuTQ0LKXLeI1nblQmytUBcqw==}
+
+snapshots:
+
+  '@types/react@16.3.11':
+    dependencies:
+      csstype: 2.6.21
+
+  csstype@2.6.21: {}
+
+  free-style@2.5.1: {}
+
+  typerscript@0.2.3(typestyle@1.5.1):
+    dependencies:
+      '@types/react': 16.3.11
+      typescript: 2.9.2
+      typestyle: 1.5.1
+
+  typescript@2.9.2: {}
+
+  typestyle@1.5.1:
+    dependencies:
+      free-style: 2.5.1
