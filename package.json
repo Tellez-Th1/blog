@@ -1,5 +1,16 @@
 {
-	"devDependencies": {
-		"typerscript": "^0.2.3"
-	}
+    "name": "blog",
+    "version": "1.0.0",
+    "description": "",
+    "scripts": {},
+    "author": {
+        "name": "Thiago Teles",
+        "email": "thiagoteles071@gmail.com",
+        "url": "https://github.com/Tellez-Th1"
+    },
+    "license": "MIT",
+    "devDependencies": {
+        "@somosprte/eslint-config": "github:somosprte/eslint-config"
+    },
+    "eslintConfig": {}
 }
